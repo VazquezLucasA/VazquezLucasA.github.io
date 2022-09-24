@@ -1,11 +1,22 @@
 header{
     margin: 5px;
+    display: flex;
     position: fixed;
-    height: 120px;
+    height: 200px;
     width: 98.5%;
-    background-color: blue;
+    background-color: rgb(91, 91, 247);
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
+}
+.navbar{
+    position: relative;
+    left: 9%;
+    top: 90%;
+}
+.navbar>a{
+    border: 2px solid black;
+    margin: 3px;
+    padding: 4px;
 }
 
 .titulobtn{
@@ -16,14 +27,14 @@ header{
     border-radius: 50px ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(50% , 10%);
 }
-.navbar{
-    display: flex;
-    flex-direction: row;
-}
+
 .espacio{
-    height: 200px;
+    height: 250px;
 }
 body{
     background-color: rgb(31, 31, 31);
