@@ -1,12 +1,31 @@
+body{
+    background-color: rgb(31, 31, 31);
+    font-family: PTSans ;
+    margin: 0;
+}
 header{
     margin: 5px;
     display: flex;
     position: fixed;
     height: 200px;
-    width: 98.5%;
-    background-color: rgb(91, 91, 247);
-    text-align: center;
-    padding-bottom: 20px; 
+    width: 100%;
+}
+.margen{
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+.titulobtn{
+    color: whitesmoke;
+    background-color: black;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px ;
+    font-size: 25px;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(50% , 10%);
 }
 .navbar{
     position: relative;
@@ -17,29 +36,16 @@ header{
     border: 2px solid black;
     margin: 3px;
     padding: 4px;
-}
-
-.titulobtn{
-    color: whitesmoke;
-    background-color: black;
-    width: 600px;
-    height: 100px;
-    border-radius: 50px ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    position: relative;
-    top: 5%;
-    left: 50%;
-    transform: translate(50% , 10%);
+    text-decoration: none;
+    color: white;
 }
 
 .espacio{
     height: 250px;
 }
-body{
-    background-color: rgb(31, 31, 31);
-}
-a{
-    text-decoration: none;
-    color: white;
+
+.facer-duki{
+    width: 25%;
+    border-radius: 100%;
+    filter:grayscale(1) ;
 }
