@@ -29,7 +29,7 @@ body{
 .titulo{
     text-align: center;
     position: relative;
-    top: 50%;
+    top: 75px;
     left: 50%;
     height: 100px;
     width: 200px;
@@ -37,9 +37,12 @@ body{
 }
 .logo{
     border: 1px solid black;
-    border-radius: 100%;
+    border-radius: 20%;
     text-decoration: none;
     color: white;
+    background-color: black;
+    height: 100px;
+    width: 200px;
 }
 .navbar{
     position: relative;
