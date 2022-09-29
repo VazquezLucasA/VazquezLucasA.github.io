@@ -48,7 +48,6 @@ body{
     position: relative;
     bottom: 10%;
     left: 70%;
-    
 }
 .navbar_items{
     list-style: none;
@@ -65,5 +64,52 @@ body{
     background-color: orange ;
     transition: 0.5s;
 }
+.nav_toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
 
+    display: none;
+}
+@media (max-width: 790px){
+    body{
+        padding: 225px 20px 0;
+        background-color:red ;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 200px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: coral;
+        align-items: center;
+    }
+    .margen{
+        height: 50px;
+        width: 100%;
+        border: 1px solid black;
+        text-align: center;
+        background-color: white;
+    }
+    .titulo{
+        position: relative;
+        left: 15%;
+    }
+   
+    .logo{
+        height: 75px;
+        width: 150px;
+    }
+    .navbar{
+        position: initial;
+        
+        
+    }
+}
 
