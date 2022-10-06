@@ -74,7 +74,7 @@ body{
 
     display: none;
 }
-@media (max-width: 790px){
+/* @media (max-width: 790px){
     body{
         padding: 225px 20px 0;
         background-color:red ;
@@ -110,6 +110,6 @@ body{
         position: initial;
         
         
-    }
-}
+    } 
+}*/
 
