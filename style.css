@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
+
 .navbar-custom {
   background-color: #302d3a;
 }
@@ -26,7 +28,6 @@ body {
   padding-top: 70px; /* Ajusta el padding para evitar que el contenido quede oculto bajo el navbar fijo */
 }
 
-
 .navbar-toggler {
   border-color: rgb(255, 255, 255); /* Cambia el color del borde del botón */
 }
@@ -39,9 +40,6 @@ body {
   outline: none; /* Elimina el contorno de enfoque adicional */
 }
 
-
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -49,11 +47,11 @@ body {
 }
 
 .card {
-  background: linear-gradient(135deg, #ffffff, #dadada);
-  border: none;
+  background: linear-gradient(135deg, #f3f3f3, #c9c9c9);
+  border: 1px solid rgba(0, 0, 0, 0.082);
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.486);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -61,13 +59,36 @@ body {
   padding: 20px;
 }
 
+.navbar-custom {
+  background-color: #302d3a;
+}
+
+.nav-link {
+  color: white !important;
+}
+
 .card-title {
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-img-top {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
 }
 
 .card-text {
   font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.5;
 }
 
 .card:hover {
