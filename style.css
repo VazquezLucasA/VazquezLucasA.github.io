@@ -102,3 +102,19 @@ body {
 .form-check-input:focus {
   box-shadow: none; /* Elimina el efecto de enfoque */
 }
+
+
+
+.img-card {
+  height: 150px; /* Altura fija para mantener proporción */
+  object-fit:contain; /* Asegura que las imágenes no se corten */
+}
+
+.card {
+  font-size: 0.5rem; /* Reduce el tamaño general del contenido */
+}
+
+.card-body h6 {
+  font-weight: 600; /* Texto más pequeño pero visible */
+}
+
