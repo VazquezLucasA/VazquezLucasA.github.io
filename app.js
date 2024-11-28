@@ -1,7 +1,6 @@
 document.getElementById("languageSwitch").addEventListener("change", function () {
   const title = document.getElementById("title");
   const description = document.getElementById("description");
-  const test = document.getElementById("test");
   const presentacion = document.getElementById("presentacion");
   const Proyectos = document.getElementById("Proyectos");
   const Certificados = document.getElementById("Certificados");
@@ -17,7 +16,6 @@ document.getElementById("languageSwitch").addEventListener("change", function ()
   const BtnContacto = document.getElementById("BtnContacto");
 
   if (this.checked) {
-    test.innerText = "English";
     BtnInicio.innerText ="Home";
     BtnSobreMi.innerText ="About me";
     BtnContacto.innerText ="Contact";
@@ -45,7 +43,6 @@ document.getElementById("languageSwitch").addEventListener("change", function ()
       the technologies used, challenges faced, and the outcomes achieved.`;
     
   } else {
-    test.innerText = "Español";
     BtnInicio.innerText ="Inicio";
     BtnSobreMi.innerText ="Sobre mí";
     BtnContacto.innerText ="Contacto";
