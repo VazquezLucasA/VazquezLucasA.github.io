@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <link rel="icon" href="../assets/icon2.png" type="image/x-icon">
+  <link rel="icon" href="../../assets/icon2.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -18,7 +18,7 @@
     crossorigin="anonymous"
   />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../../style.css" />
 </head>
 
 <body>
@@ -31,21 +31,30 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../../index.html" id="BtnInicio">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./aboutme.html">About Me</a>
+            <a class="nav-link" href="../aboutme/aboutme.html" id="BtnSobreMi">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="./contact.html" id="BtnContacto">Contacto</a>
           </li>
         </ul>
+      </div>
+    </div>
+    <div style="position: fixed; right: inherit;" class="me-5"> <!-- Boton idioma -->
+      <div class="d-flex align-items-center justify-content-center">
+        <label class="switchNAV me-2">Español</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="languageSwitch">
+        </div>
+        <label class="switchNAV m-2">English</label>
       </div>
     </div>
   </nav>
 
   <main class="main">
-    <div class="container mt-2">
+    <div class="container mt-4">
       <h1 class="titulo" style="font-weight: 800">Lucas Vazquez</h1>
       <h2 class="ms-2">Data Analyst</h2>
       <button type="button" class="btn btn-secondary bg-dark">
@@ -54,25 +63,28 @@
     </div>
 
     <div class="container mt-5">
-      <h2 class="mb-4">Contact Me</h2>
+      <h2 class="mb-4" id="FormContactMe">Contact Me</h2>
       <form action="https://formsubmit.co/vazquez.lucas.alejo@gmail.com" method="POST">
         <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
+          <label for="name" class="form-label" id="FormName">Name</label>
           <input type="text" class="form-control" id="name" name="name" required>
         </div>
         <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
+          <label for="email" class="form-label" id="FormEmail">Email address</label>
           <input type="email" class="form-control" id="email" name="email" required>
         </div>
         <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
+          <label for="message" class="form-label" id="FormMessage">Message</label>
           <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Send Message</button>
+        <button type="submit" class="btn btn-primary" id="FormBtnSend">Send Message</button>
       </form>
     </div>
 
   </main>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+
 
   <footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
@@ -98,7 +110,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
-  <script src="./contact.js"></script>
+<script src="./contact.js"></script>
 </body>
 </html>
