@@ -131,3 +131,17 @@ body {
 .move-left {
   margin-right: 25px; /* Ajusta este valor para mover más o menos */
 }
+
+
+
+.tarjetas-certificaciones .img-card {
+  width: 100%;
+  object-fit: fill; /* Cubre todo el contenedor pero puede cortar los bordes */
+  object-position: center;
+}
+
+
+.algunasCards{
+  
+  height: auto;
+}

@@ -25,11 +25,14 @@ document.getElementById("languageSwitch").addEventListener("change", function ()
     BtnSobreMi.innerText ="About me";
     BtnContacto.innerText ="Contact";
     presentacion.innerHTML = `
+    <h4>
     <span>
     The page is currently under construction.<br><br>
     I am a data analyst. I graduated as Associate's degree in university programming at <a href="https://www.frt.utn.edu.ar/">UTN FRT</a>.<br>
     Some of the skills I have include: Python, PowerBI, Looker Studio, Excel, Spreadsheets, MySQL, and inferential statistics.
-    </span>`;
+    </span>
+    <h4/>
+    `;
     DescProyecto1.innerText =`This is a more detailed description of the project. It can include information about the goals, 
     the technologies used, challenges faced, and the outcomes achieved.`;
     
@@ -59,11 +62,14 @@ document.getElementById("languageSwitch").addEventListener("change", function ()
     BtnSobreMi.innerText ="Sobre mí";
     BtnContacto.innerText ="Contacto";
     presentacion.innerHTML = `
-      <span>
-        La página actualmente se encuentra en construcción.<br><br>
-        Soy analista de datos. Recibido de Técnico Universitario en Programación en <a href="https://www.frt.utn.edu.ar/">UTN FRT</a>.<br>
-        Algunas de las skills que manejo son: Python, PowerBI, Looker Studio, Excel, Spreedsheets, MySql y estadística inferencial.
-      </span>`;
+    <h4>
+    <span>
+    La página actualmente se encuentra en construcción.<br><br>
+    Soy analista de datos. Recibido de Técnico Universitario en Programación en <a href="https://www.frt.utn.edu.ar/">UTN FRT</a>.<br>
+    Algunas de las skills que manejo son: Python, PowerBI, Looker Studio, Excel, Spreedsheets, MySql y estadística inferencial.
+    </span>
+    <h4/>
+    `;
       DescProyecto1.innerText =`Se trata de una descripción más detallada del proyecto.
       Puede incluir información sobre los objetivos, las tecnologías utilizadas, los desafíos afrontados y los resultados obtenidos.`;
       
@@ -100,11 +106,14 @@ window.addEventListener("DOMContentLoaded", () => {
     BtnSobreMi.innerText ="About me";
     BtnContacto.innerText ="Contact";
     presentacion.innerHTML = `
+    <h4>
     <span>
     The page is currently under construction.<br><br>
     I am a data analyst. I graduated as Associate's degree in university programming at <a href="https://www.frt.utn.edu.ar/">UTN FRT</a>.<br>
     Some of the skills I have include: Python, PowerBI, Looker Studio, Excel, Spreadsheets, MySQL, and inferential statistics.
-    </span>`;
+    </span>
+    <h4/>
+    `;
     DescProyecto1.innerText =`This is a more detailed description of the project. It can include information about the goals, 
     the technologies used, challenges faced, and the outcomes achieved.`;
     
@@ -133,11 +142,14 @@ window.addEventListener("DOMContentLoaded", () => {
     BtnSobreMi.innerText ="Sobre mí";
     BtnContacto.innerText ="Contacto";
     presentacion.innerHTML = `
-      <span>
-        La página actualmente se encuentra en construcción.<br><br>
-        Soy analista de datos. Recibido de Técnico Universitario en Programación en <a href="https://www.frt.utn.edu.ar/">UTN FRT</a>.<br>
-        Algunas de las skills que manejo son: Python, PowerBI, Looker Studio, Excel, Spreedsheets, MySql y estadística inferencial.
-      </span>`;
+    <h4>
+    <span>
+    La página actualmente se encuentra en construcción.<br><br>
+    Soy analista de datos. Recibido de Técnico Universitario en Programación en <a href="https://www.frt.utn.edu.ar/">UTN FRT</a>.<br>
+    Algunas de las skills que manejo son: Python, PowerBI, Looker Studio, Excel, Spreedsheets, MySql y estadística inferencial.
+    </span>
+    <h4/>
+    `;
       DescProyecto1.innerText =`Se trata de una descripción más detallada del proyecto.
       Puede incluir información sobre los objetivos, las tecnologías utilizadas, los desafíos afrontados y los resultados obtenidos.`;
       
