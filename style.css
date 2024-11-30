@@ -118,3 +118,16 @@ body {
   font-weight: 600; /* Texto más pequeño pero visible */
 }
 
+
+/* foto del titulo*/
+.grayscale-img {
+  width: 200px; /* Ajusta el tamaño según sea necesario */
+  height: 200px; /* Asegúrate de que el ancho y el alto sean iguales para mantener el formato circular */
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor circular */
+  transition: filter 0.3s ease; /* Agrega una transición suave */
+  border: solid black 1px;
+}
+
+.move-left {
+  margin-right: 25px; /* Ajusta este valor para mover más o menos */
+}
