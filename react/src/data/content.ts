@@ -12,7 +12,7 @@ export const content = {
       role: "Platform / DevOps / SRE Engineer",
       summary:
         "Platform Engineer responsable del stack tecnológico completo de un ISP regional: bare metal, virtualización, redes y una plataforma de 16 servicios que sostiene a 15.000 abonados y cerca de 100 empleados. Construí la nube privada, la observabilidad, la recuperación ante desastres y el pipeline de entrega a producción. Trabajo con la misma comodidad en entornos on-premise y cloud-native.",
-      cta: "Descargar CV en inglés",
+      cta: "Descargar CV",
     },
     experience: {
       title: "Experiencia profesional",
