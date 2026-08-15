@@ -21,7 +21,7 @@ export const content = {
           title: "Platform & Infrastructure Engineer",
           company: "Dovanet",
           context: "ISP regional · 15.000 abonados · Tucumán, Argentina",
-          period: "Ene 2025 - Actualidad",
+          period: "Ene 2024 - Actualidad",
           description: [
             "Responsable end-to-end de la plataforma productiva del ISP: 4 servidores bare-metal Dell PowerEdge (iDRAC, RAID y hot spares), hipervisores Proxmox VE, Proxmox Backup Server y más de 18 servicios productivos, desde la instalación del sistema operativo hasta las guardias.",
             "Diseñé y construí el OSS/BSS interno que reemplaza un monolito PHP: 16 microservicios Node.js/Express detrás de un API gateway y un frontend React/Vite. Cubre CRM, inventario y logística en 6 ciudades y 2 países, aprovisionamiento, tickets, técnicos de campo, liquidación de sueldos y analítica.",
@@ -102,7 +102,7 @@ export const content = {
           title: "Platform & Infrastructure Engineer",
           company: "Dovanet",
           context: "Regional fiber ISP · 15,000 subscribers · Tucumán, Argentina",
-          period: "Jan 2025 - Present",
+          period: "Jan 2024 - Present",
           description: [
             "Own the ISP's production platform end to end: 4 bare-metal Dell PowerEdge nodes (iDRAC, RAID, hot spares), Proxmox VE hypervisors and a Proxmox Backup Server, and 18+ production services — from OS install through on-call.",
             "Architected and built the in-house OSS/BSS replacing a legacy PHP monolith: 16 Node.js/Express microservices behind an API gateway with a React/Vite frontend, covering CRM, inventory and logistics across 6 cities and 2 countries, service provisioning, ticketing, field-technician workflows, payroll, and analytics.",
